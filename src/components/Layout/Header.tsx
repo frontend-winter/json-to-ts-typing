@@ -61,7 +61,7 @@ const HeaderComponent = () => {
             checkedChildren="🌜"
             unCheckedChildren="🌞"
             checked={theme.theme === defaultTheme.dark}
-            onChange={(v) => theme.toggle(v)}
+            onChange={(v) => theme.toggle(!v)}
           />
           <a
             style={{ marginLeft: 20 }}
