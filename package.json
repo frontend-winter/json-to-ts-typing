@@ -1,0 +1,31 @@
+{
+  "name": "json-to-ts-typing",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "clean": "rm -rf pnpm-lock.yaml && rm -rf yarn.lock && rm -rf node_modules && rm -rf json-to-ts-typing && rm -rf build"
+  },
+  "dependencies": {
+    "@cyly/json2ts": "^0.1.4",
+    "antd": "^5.1.5",
+    "codemirror": "5",
+    "prettier": "2.8.3",
+    "query-string": "^8.1.0",
+    "react": "18",
+    "react-codemirror2": "^6.0.1",
+    "react-dom": "18",
+    "react-router-dom": "^6.6.2"
+  },
+  "devDependencies": {
+    "@codemirror/lang-javascript": "^6.1.2",
+    "@types/codemirror": "^5.60.6",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.4",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
