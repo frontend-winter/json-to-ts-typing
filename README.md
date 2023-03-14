@@ -1,6 +1,6 @@
 # json-to-ts-typing
 
-## jsona数据转换成ts类型
+## json数据转换成ts类型
 
 使用`编译原理`，解析Json，输出 TS 类型
 
